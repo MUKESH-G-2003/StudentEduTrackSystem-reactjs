@@ -1,0 +1,59 @@
+
+
+h1{
+    background-color: rgb(73, 73, 210);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.state{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: aliceblue
+}
+.state div i{
+    font-size: 50px;
+}
+.state div{
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+.state div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 40px;
+    margin: 50px 0px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 5px;
+}
+.icons div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons div div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+.icons div div:hover{
+    color: red;
+}
+.icons div div p{
+    font-size: 15px;
+}

@@ -1,0 +1,26 @@
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 40px;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.navigation p{
+    font-size: 10px;
+}
+
+.navigation i:hover{
+    color: green;
+}
+
+.bottom{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}

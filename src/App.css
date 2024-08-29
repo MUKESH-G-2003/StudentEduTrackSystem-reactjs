@@ -1,0 +1,11 @@
+
+
+.container{
+  display: flex;
+  gap: 50px;
+  background-color: aqua;
+  width: fit-content;
+  padding: 20px 50px;
+  scale: .8;
+
+}
